@@ -48,7 +48,7 @@ This project lays the foundation for a robust blogging platform with clearly def
 10. **lombok**: For reducing boilerplate code like getters, setters, constructors, etc.
 
 
-![imGE](\src\main\resources\static\img\BlogERdiagram.PNG)
+![imGE](/src/main/resources/static/img/BlogERdiagram.PNG)
 
 
 
