@@ -39,7 +39,7 @@ public ResponseEntity<Map<String,String>>userValidationExceptions(MethodArgument
 	ex.getBindingResult().getAllErrors().forEach(err->
 	
 	{
-		String fieldname = ((FieldError) err).getField(); //typcast into Fielderror and then get filed name
+		String fieldname = ((FieldError) err).getField(); //typcast into Field error and then get filed name
 		String defaultMessage = err.getDefaultMessage();
 		map.put(fieldname, defaultMessage);
 	}
