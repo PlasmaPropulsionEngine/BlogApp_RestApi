@@ -20,6 +20,8 @@ This project is a **REST API for a Blogging Platform**, designed to manage blog 
 ### 4. **Comments**
 - **Many-to-One** relationship with **Post**: All comments belong to a single post.
 - Represents user feedback or discussions for a specific post.
+- 
+![imGE](/src/main/resources/static/img/BlogERdiagram.PNG)
 
 ## Features
 - Provides RESTful endpoints to manage:
@@ -48,7 +50,6 @@ This project lays the foundation for a robust blogging platform with clearly def
 10. **lombok**: For reducing boilerplate code like getters, setters, constructors, etc.
 
 
-![imGE](/src/main/resources/static/img/BlogERdiagram.PNG)
 
 
 
