@@ -27,7 +27,14 @@ This project is a **REST API for a Blogging Platform**, designed to manage blog 
 ## Features
 - Provides RESTful endpoints to manage:
   - **Users**
-  - Get
+| HTTP Method | Endpoint             | Description                       | Request Body       | Response Body         |
+|-------------|----------------------|-----------------------------------|--------------------|-----------------------|
+| GET         | `/api/users`         | Fetch all users                  | None               | List of users         |
+| POST        | `/api/users`         | Create a new user                | JSON with user data| Created user details  |
+| GET         | `/api/users/{id}`    | Fetch a specific user by ID      | None               | User details          |
+| PUT         | `/api/users/{id}`    | Update an existing user by ID    | JSON with updates  | Updated user details  |
+| DELETE      | `/api/users/{id}`    | Delete a specific user by ID     | None               | Success message       |
+
   - **Posts**
   - **Categories**
   - **Roles**
