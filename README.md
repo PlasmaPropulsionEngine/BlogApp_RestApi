@@ -26,7 +26,7 @@ This project is a **REST API for a Blogging Platform**, designed to manage blog 
 
 ## Features
 - Provides RESTful endpoints to manage:
-  - **Users**
+  - **Users** Endpoints
   ---
 | HTTP Method | Endpoint             | Description                       | Request Body       | Response Body         |
 |-------------|----------------------|-----------------------------------|--------------------|-----------------------|
@@ -46,14 +46,13 @@ This project is a **REST API for a Blogging Platform**, designed to manage blog 
 | PUT         | `/api/posts/{postId}`                                     | Update an existing post by userID| JSON with updates   | Updated post details  |
 | DELETE      | `/api/posts/{postId}`                                     | Delete a specific post by postID   | None               | Success message       | 
   - **Categories**
-  ---
-    - --
+  ---  
 | HTTP Method | Endpoint                                                  | Description                       | Request Body            | Response Body         |
 |-------------|---------------------------------------------------------- |---------------------------------- |-------------------------|-----------------------|
 | GET         | `/api/category`                                           | Fetch all categories              | None                    | List of categories    |
-| POST        | `/api/category`                                           | Create a new category              | JSON with category data| Created ca category   |
+| POST        | `/api/category`                                           | Create a new category              | JSON with category data| Created category category   |
 | GET         | `/api//category/{id}`                                     |Fetch a specific category by categoryID | None               | category details       |
-| PUT         | `/api//category/{id}}`                                    | Update an existing category by categoryID| JSON with updates | Updated cate details  |
+| PUT         | `/api//category/{id}}`                                    | Update an existing category by categoryID| JSON with updates | Updated category details  |
 | DELETE      | `/api//category/{id}`                                     | Delete a specific category by categoryID   | None             | Success message      | 
   - **Roles**
   - **Comments**
