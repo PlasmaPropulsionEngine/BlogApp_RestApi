@@ -27,6 +27,7 @@ This project is a **REST API for a Blogging Platform**, designed to manage blog 
 ## Features
 - Provides RESTful endpoints to manage:
   - **Users**
+  - Get
   - **Posts**
   - **Categories**
   - **Roles**
