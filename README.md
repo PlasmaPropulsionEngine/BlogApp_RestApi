@@ -36,7 +36,7 @@ This project is a **REST API for a Blogging Platform**, designed to manage blog 
 | PUT         | `/api/users/{id}`    | Update an existing user by ID    | JSON with updates  | Updated user details  |
 | DELETE      | `/api/users/{id}`    | Delete a specific user by ID     | None               | Success message       |
 
-  - **Posts**
+  - **Posts**Endpoints
   - --
 | HTTP Method | Endpoint                                                  | Description                       | Request Body       | Response Body         |
 |-------------|---------------------------------------------------------- |---------------------------------- |--------------------|-----------------------|
@@ -45,7 +45,7 @@ This project is a **REST API for a Blogging Platform**, designed to manage blog 
 | GET         | `/api/user/{userId}/posts`                                |Fetch a specific post by userID    | None               | Post details          |
 | PUT         | `/api/posts/{postId}`                                     | Update an existing post by userID| JSON with updates   | Updated post details  |
 | DELETE      | `/api/posts/{postId}`                                     | Delete a specific post by postID   | None               | Success message       | 
-  - **Categories**
+  - **Categories**Endpoints
   ---  
 | HTTP Method | Endpoint                                                  | Description                       | Request Body            | Response Body         |
 |-------------|---------------------------------------------------------- |---------------------------------- |-------------------------|-----------------------|
@@ -54,8 +54,16 @@ This project is a **REST API for a Blogging Platform**, designed to manage blog 
 | GET         | `/api//category/{id}`                                     |Fetch a specific category by categoryID | None               | category details       |
 | PUT         | `/api//category/{id}}`                                    | Update an existing category by categoryID| JSON with updates | Updated category details  |
 | DELETE      | `/api//category/{id}`                                     | Delete a specific category by categoryID   | None             | Success message      | 
-  - **Roles**
-  - **Comments**
+
+  - **Comments**Endpoints
+  ---
+  | HTTP Method | Endpoint                    | Description                       | Request Body       | Response Body         |
+|-------------|-------------------------------|-----------------------------------|--------------------|-----------------------|
+|    POST      | `/api/post/{postId}/comments`| Fetch all Comments                | Json payload       | List of Comments of specific post |
+|    DELETE    | `/api/comments/{commId}`     | Delete comment by commentId       | none               | success message  |
+
+
+  - **Roles** 
 - Enables scalable and organized management of blogging functionalities.
 
 ---
