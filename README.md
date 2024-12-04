@@ -36,7 +36,7 @@ This project is a **REST API for a Blogging Platform**, designed to manage blog 
 | PUT         | `/api/users/{id}`    | Update an existing user by ID    | JSON with updates  | Updated user details  |
 | DELETE      | `/api/users/{id}`    | Delete a specific user by ID     | None               | Success message       |
 
-  - **Posts**Endpoints
+  - **Posts** Endpoints
   - --
 | HTTP Method | Endpoint                                                  | Description                       | Request Body       | Response Body         |
 |-------------|---------------------------------------------------------- |---------------------------------- |--------------------|-----------------------|
@@ -45,7 +45,7 @@ This project is a **REST API for a Blogging Platform**, designed to manage blog 
 | GET         | `/api/user/{userId}/posts`                                |Fetch a specific post by userID    | None               | Post details          |
 | PUT         | `/api/posts/{postId}`                                     | Update an existing post by userID| JSON with updates   | Updated post details  |
 | DELETE      | `/api/posts/{postId}`                                     | Delete a specific post by postID   | None               | Success message       | 
-  - **Categories**Endpoints
+  - **Categories** Endpoints
   ---  
 | HTTP Method | Endpoint                                                  | Description                       | Request Body            | Response Body         |
 |-------------|---------------------------------------------------------- |---------------------------------- |-------------------------|-----------------------|
@@ -55,7 +55,7 @@ This project is a **REST API for a Blogging Platform**, designed to manage blog 
 | PUT         | `/api//category/{id}}`                                    | Update an existing category by categoryID| JSON with updates | Updated category details  |
 | DELETE      | `/api//category/{id}`                                     | Delete a specific category by categoryID   | None             | Success message      | 
 
-  - **Comments**Endpoints
+  - **Comments** Endpoints
   ---
   | HTTP Method | Endpoint                    | Description                       | Request Body       | Response Body         |
 |-------------|-------------------------------|-----------------------------------|--------------------|-----------------------|
