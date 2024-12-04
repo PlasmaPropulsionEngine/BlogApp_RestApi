@@ -37,6 +37,14 @@ This project is a **REST API for a Blogging Platform**, designed to manage blog 
 | DELETE      | `/api/users/{id}`    | Delete a specific user by ID     | None               | Success message       |
 
   - **Posts**
+  - --
+| HTTP Method | Endpoint                                                  | Description                       | Request Body       | Response Body         |
+|-------------|---------------------------------------------------------- |---------------------------------- |--------------------|-----------------------|
+| GET         | `/api/posts`                                              | Fetch all posts                   | None               | List of posts         |
+| POST        | `/api//user/{UserId}/category/{CategoryId}/posts`         | Create a new post                 | JSON with post data| Created post details  |
+| GET         | `/api/user/{userId}/posts`                                |Fetch a specific post by userID    | None               | Post details          |
+| PUT         | `/api/posts/{postId}`                                     | Update an existing post by userID| JSON with updates   | Updated post details  |
+| DELETE      | `/api/posts/{postId}`                                     | Delete a specific post by postID   | None               | Success message       | 
   - **Categories**
   - **Roles**
   - **Comments**
