@@ -1,0 +1,14 @@
+payloads\Roles.class
+payloads\LoginResponcePojo.class
+payloads\PostDto.class
+payloads\PostResponce.class
+payloads\LoginRequest.class
+payloads\CommentResponce.class
+payloads\CommentsDto.class
+payloads\PostResponse.class
+payloads\CategoryResponce.class
+payloads\Type.class
+payloads\UserDto.class
+payloads\CategoryRequest.class
+payloads\PostRequest.class
+payloads\CategoryDto.class

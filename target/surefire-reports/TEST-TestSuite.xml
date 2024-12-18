@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.89" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ASHOK\eclipse-workspace\BlogApp_apiTestScript\target\test-classes;C:\Users\ASHOK\eclipse-workspace\BlogApp_apiTestScript\target\classes;C:\Users\ASHOK\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ASHOK\.m2\repository\io\rest-assured\rest-assured-all\5.5.0\rest-assured-all-5.5.0.jar;C:\Users\ASHOK\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\ASHOK\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ASHOK\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\ASHOK\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ASHOK\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\ASHOK\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\ASHOK\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ASHOK\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ASHOK\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ASHOK\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ASHOK\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ASHOK\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\ASHOK\.m2\repository\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar;C:\Users\ASHOK\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\ASHOK\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\ASHOK\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ASHOK\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ASHOK\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\ASHOK\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\ASHOK\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\ASHOK\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\ASHOK\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ASHOK\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ASHOK\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ASHOK\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ASHOK\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\ASHOK\AppData\Local\Temp\surefire11246441287344841539\surefirebooter-20241219002426736_3.jar C:\Users\ASHOK\AppData\Local\Temp\surefire11246441287344841539 2024-12-19T00-24-26_259-jvmRun1 surefire-20241219002426736_1tmp surefire_0-20241219002426736_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ASHOK\eclipse-workspace\BlogApp_apiTestScript\target\test-classes;C:\Users\ASHOK\eclipse-workspace\BlogApp_apiTestScript\target\classes;C:\Users\ASHOK\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ASHOK\.m2\repository\io\rest-assured\rest-assured-all\5.5.0\rest-assured-all-5.5.0.jar;C:\Users\ASHOK\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\ASHOK\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ASHOK\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\ASHOK\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ASHOK\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\ASHOK\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\ASHOK\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ASHOK\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ASHOK\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ASHOK\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ASHOK\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ASHOK\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\ASHOK\.m2\repository\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar;C:\Users\ASHOK\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\ASHOK\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\ASHOK\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ASHOK\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ASHOK\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\ASHOK\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\ASHOK\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\ASHOK\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\ASHOK\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\ASHOK\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\ASHOK\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\ASHOK\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\ASHOK\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ASHOK"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ASHOK\eclipse-workspace\BlogApp_apiTestScript"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASHOK\AppData\Local\Temp\surefire11246441287344841539\surefirebooter-20241219002426736_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="ASHOK"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ASHOK\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASHOK\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="C:\Users\ASHOK\eclipse-workspace\BlogApp_apiTestScript"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\ASHOK\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Maven\apache-maven-3.9.6\bin;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Server 8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ASHOK\AppData\Local\Microsoft\WindowsApps;C:\Users\ASHOK\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\7.0\bin;C:\Program Files\MongoDB\Server\mongosh-2.1.5-win32-x64\bin;C:\Program Files\Java\jdk-17.0.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="endToEndTest" classname="test.RestAssuredTest" time="8.37">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:9092/api/v1/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "postman07@gmail.com",
+    "password": "test"
+}
+HTTP/1.1 202 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Dec 2024 18:54:33 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "jwtToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwb3N0bWFuMDdAZ21haWwuY29tIiwiaWF0IjoxNzM0NTQ4MDczLCJleHAiOjE3MzQ1NjYwNzN9.ZWGO22wJQZIZ1AbzOSVCICuqVT5xf33b2bFDU_KaGgRGcWZgzMQkKWGeat0rN8A8h3gcRibABYPUmaZvRH0Q_w",
+    "user_id": 2
+}
+Request method:	POST
+Request URI:	http://localhost:9092/api/category
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwb3N0bWFuMDdAZ21haWwuY29tIiwiaWF0IjoxNzM0NTQ4MDczLCJleHAiOjE3MzQ1NjYwNzN9.ZWGO22wJQZIZ1AbzOSVCICuqVT5xf33b2bFDU_KaGgRGcWZgzMQkKWGeat0rN8A8h3gcRibABYPUmaZvRH0Q_w
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "categoryTitle": "black adam"
+}
+HTTP/1.1 201 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Dec 2024 18:54:33 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "categoryTitle": "black adam",
+    "cid": 7
+}
+black adam
+Request method:	POST
+Request URI:	http://localhost:9092/api/user/2/category/7/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwb3N0bWFuMDdAZ21haWwuY29tIiwiaWF0IjoxNzM0NTQ4MDczLCJleHAiOjE3MzQ1NjYwNzN9.ZWGO22wJQZIZ1AbzOSVCICuqVT5xf33b2bFDU_KaGgRGcWZgzMQkKWGeat0rN8A8h3gcRibABYPUmaZvRH0Q_w
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "super heros",
+    "content": "spider and robin"
+}
+HTTP/1.1 201 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Dec 2024 18:54:33 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "title": "super heros",
+    "content": "spider and robin",
+    "imagename": "default.png",
+    "addedDate": 1734548074382,
+    "category": {
+        "categoryTitle": "black adam",
+        "cid": 7
+    },
+    "user": {
+        "user_id": 2,
+        "email": "postman07@gmail.com",
+        "password": "$2a$10$R8oZblutkG1f4eyoR1peQet1/BsA8vmsIURRWfXwmHlxStsg3gYVu",
+        "name": "jenkins",
+        "roles": [
+            {
+                "roleId": 101,
+                "rolename": "ROLE_NORMAL"
+            }
+        ]
+    },
+    "comments": [
+        
+    ],
+    "pid": 7
+}
+7
+Request method:	GET
+Request URI:	http://localhost:9092/api/posts/7
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwb3N0bWFuMDdAZ21haWwuY29tIiwiaWF0IjoxNzM0NTQ4MDczLCJleHAiOjE3MzQ1NjYwNzN9.ZWGO22wJQZIZ1AbzOSVCICuqVT5xf33b2bFDU_KaGgRGcWZgzMQkKWGeat0rN8A8h3gcRibABYPUmaZvRH0Q_w
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Dec 2024 18:54:34 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "title": "super heros",
+    "content": "spider and robin",
+    "imagename": "default.png",
+    "addedDate": 1734548074382,
+    "category": {
+        "categoryTitle": "black adam",
+        "cid": 7
+    },
+    "user": {
+        "user_id": 2,
+        "email": "postman07@gmail.com",
+        "password": "$2a$10$R8oZblutkG1f4eyoR1peQet1/BsA8vmsIURRWfXwmHlxStsg3gYVu",
+        "name": "jenkins",
+        "roles": [
+            {
+                "roleId": 101,
+                "rolename": "ROLE_NORMAL"
+            }
+        ]
+    },
+    "comments": [
+        
+    ],
+    "pid": 7
+}
+{"title":"super heros","content":"spider and robin","imagename":"default.png","addedDate":1734548074382,"category":{"categoryTitle":"black adam","cid":7},"user":{"user_id":2,"email":"postman07@gmail.com","password":"$2a$10$R8oZblutkG1f4eyoR1peQet1/BsA8vmsIURRWfXwmHlxStsg3gYVu","name":"jenkins","roles":[{"roleId":101,"rolename":"ROLE_NORMAL"}]},"comments":[],"pid":7}
+Request method:	POST
+Request URI:	http://localhost:9092/api/post/image/upload/7
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwb3N0bWFuMDdAZ21haWwuY29tIiwiaWF0IjoxNzM0NTQ4MDczLCJleHAiOjE3MzQ1NjYwNzN9.ZWGO22wJQZIZ1AbzOSVCICuqVT5xf33b2bFDU_KaGgRGcWZgzMQkKWGeat0rN8A8h3gcRibABYPUmaZvRH0Q_w
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = image; filename = profile.png
+				Content-Type: application/octet-stream
+
+				C:\Users\ASHOK\eclipse-workspace\BlogApp_apiTestScript\images\profile.png
+Body:			<none>
+HTTP/1.1 202 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Dec 2024 18:54:34 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "title": "super heros",
+    "content": "spider and robin",
+    "imagename": "7572e2b9-c080-49a9-badb-4c4cef8be24c.png",
+    "addedDate": 1734548074382,
+    "category": {
+        "categoryTitle": "black adam",
+        "cid": 7
+    },
+    "user": {
+        "user_id": 2,
+        "email": "postman07@gmail.com",
+        "password": "$2a$10$R8oZblutkG1f4eyoR1peQet1/BsA8vmsIURRWfXwmHlxStsg3gYVu",
+        "name": "jenkins",
+        "roles": [
+            {
+                "roleId": 101,
+                "rolename": "ROLE_NORMAL"
+            }
+        ]
+    },
+    "comments": [
+        
+    ],
+    "pid": 7
+}
+{"title":"super heros","content":"spider and robin","imagename":"7572e2b9-c080-49a9-badb-4c4cef8be24c.png","addedDate":1734548074382,"category":{"categoryTitle":"black adam","cid":7},"user":{"user_id":2,"email":"postman07@gmail.com","password":"$2a$10$R8oZblutkG1f4eyoR1peQet1/BsA8vmsIURRWfXwmHlxStsg3gYVu","name":"jenkins","roles":[{"roleId":101,"rolename":"ROLE_NORMAL"}]},"comments":[],"pid":7}
+Request method:	DELETE
+Request URI:	http://localhost:9092/api/posts/7
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwb3N0bWFuMDdAZ21haWwuY29tIiwiaWF0IjoxNzM0NTQ4MDczLCJleHAiOjE3MzQ1NjYwNzN9.ZWGO22wJQZIZ1AbzOSVCICuqVT5xf33b2bFDU_KaGgRGcWZgzMQkKWGeat0rN8A8h3gcRibABYPUmaZvRH0Q_w
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Dec 2024 18:54:34 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "message": "Post deleted succesfully!",
+    "status": true
+}
+{"message":"Post deleted succesfully!","status":true}
+endToEndTest
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>
