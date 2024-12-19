@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-19T00:19:01 IST" name="Default suite" finished-at="2024-12-19T00:19:11 IST" duration-ms="9957">
+  <suite started-at="2024-12-19T13:15:09 IST" name="End to End flow (crud)" finished-at="2024-12-19T13:15:19 IST" duration-ms="9727">
     <groups>
     </groups>
-    <test started-at="2024-12-19T00:19:01 IST" name="Default test" finished-at="2024-12-19T00:19:11 IST" duration-ms="9957">
+    <test started-at="2024-12-19T13:15:09 IST" name="Flow test" finished-at="2024-12-19T13:15:19 IST" duration-ms="9727">
       <class name="test.RestAssuredTest">
-        <test-method signature="endToEndTest()[pri:0, instance:test.RestAssuredTest@65466a6a]" started-at="2024-12-19T00:19:01 IST" name="endToEndTest" finished-at="2024-12-19T00:19:11 IST" duration-ms="9864" status="PASS">
+        <test-method signature="endToEndTest()[pri:0, instance:test.RestAssuredTest@60099951]" started-at="2024-12-19T13:15:09 IST" name="endToEndTest" finished-at="2024-12-19T13:15:19 IST" duration-ms="9622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endToEndTest -->
       </class> <!-- test.RestAssuredTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Flow test -->
+  </suite> <!-- End to End flow (crud) -->
 </testng-results>

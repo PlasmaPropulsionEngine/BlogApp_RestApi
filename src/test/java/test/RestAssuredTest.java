@@ -62,7 +62,7 @@ public void endToEndTest()
 		
 		 CategoryRequest categoryRequest=new CategoryRequest();
 		 
-		 categoryRequest.setCategoryTitle("black adam");
+		 categoryRequest.setCategoryTitle("arkham night");
 		
 		 RequestSpecification categoryReq = given().spec(addCategoryReq).log().all().body(categoryRequest);
 		 
@@ -80,8 +80,8 @@ public void endToEndTest()
 		  
 		  PostRequest postRequest=new PostRequest();
 		
-		  postRequest.setTitle("super heros");
-		  postRequest.setContent("spider and robin");
+		  postRequest.setTitle("batman beyond");
+		  postRequest.setContent("batman vs sup");
 		  
 		  RequestSpecification blogpost = given().spec(addBlogReq).log().all().body(postRequest);
 		  PostResponce as = blogpost.when().post("/user/"+user_id+"/category/"+cid+"/posts").then()
