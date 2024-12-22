@@ -1,0 +1,40 @@
+version: '3.9'
+
+services:
+  springboot-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: springboot-app_restapi
+    ports:
+      - "9092:9092" # Map Spring Boot's port
+    environment:
+      SERVER_PORT: 9092
+      MYSQL_HOST: mysql
+      MYSQL_PORT: 3306
+      MYSQL_DB: blogapp_restapi
+      MYSQL_USER: root
+      MYSQL_PASSWORD: karan
+    depends_on:
+      - mysql
+    networks:
+      - app-network
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-db
+    ports:
+      - "3307:3306" # MySQL port
+    environment:
+      MYSQL_DATABASE: blogapp_restapi
+      MYSQL_ROOT_PASSWORD: karan 
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - app-network
+
+volumes:
+  mysql_data:
+
+networks:
+  app-network:
