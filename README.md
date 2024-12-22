@@ -5,7 +5,7 @@ The Blog REST API is a backend application designed to manage the core functiona
 ## Key Entities and Relationships
 
 ### 1. **User**
-- **One-to-Many** relationship with **Post**: A user can create multiple posts.
+- **One-to-Many** relationship with **Post**: A user can create multiple posts.         
 - **Many-to-Many** relationship with **Roles**: Users can have multiple roles.
 
 ### 2. **Post**
@@ -83,7 +83,10 @@ This project lays the foundation for a robust blogging platform with clearly def
 9. **modelmapper**: For mapping DTOs to entities and vice versa.
 10. **lombok**: For reducing boilerplate code like getters, setters, constructors, etc.
 
-
+---
+##Steps to Create docker image as a application.
+1.**In project -> directory-> cmd-> type docker-compose up : it will download base image and create image**
+2.**check images -> then expose ports-> 9092 
 
 
 
