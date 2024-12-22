@@ -1,4 +1,4 @@
-# Blogging Platform REST API       docker image:docker pull karanai/firstrepo:v1
+# Blogging Platform REST API        
 
 This project is a **REST API for a Blogging Platform**, designed to manage blog creation and related functionalities.
 The Blog REST API is a backend application designed to manage the core functionalities of a blogging platform. It provides RESTful endpoints to handle CRUD (Create, Read, Update, Delete) operations for managing posts and comments. The application is built using Spring Boot.
