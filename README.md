@@ -84,9 +84,9 @@ This project lays the foundation for a robust blogging platform with clearly def
 10. **lombok**: For reducing boilerplate code like getters, setters, constructors, etc.
 
 ---
-##Steps to Create docker image as a application.
-1.**In project -> directory-> cmd-> type docker-compose up : it will download base image and create image**
-2.**check images -> then expose ports-> 9092 
+##Steps to Create docker image as a application.  
+1.**In project -> directory-> cmd-> type docker-compose up : it will download base image and create image**  
+2.**check on postman localhost:9092. 
 
 
 
